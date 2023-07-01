@@ -1,0 +1,46 @@
+*{
+    box-sizing:border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: sans-serif;
+}
+nav{
+    background: cyan;
+    padding: 5px 20px;
+}
+ul{
+    list-style-type: none;
+
+}
+a{
+    color:black;
+    text-decoration: none;
+}
+
+
+.menu li{
+    font-size: 16px;
+    padding: 15px 5px;
+}
+.menu li a{
+    display: block;
+}
+.logo a{
+ font-size: 20px;
+}
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.anh{
+    display: flex;
+    justify-content: space-around;
+}
+img:hover{
+    width: 350px;
+    height: 230px;
+}
